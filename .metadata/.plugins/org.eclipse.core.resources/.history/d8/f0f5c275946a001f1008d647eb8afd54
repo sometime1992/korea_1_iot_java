@@ -1,5 +1,7 @@
 package chapter02;
 
+import java.util.Scanner;
+
 // 반복문
 // : 어떤 작업을 반복적으로 실행하고 싶을 때 사용
 
@@ -22,32 +24,16 @@ public class C_For {
 		
 //		== 예제 ==
 //		for 반복문을 사용하여 1부터 10까지의 숫자 중 짝수만 출력
-		System.out.println();
+		System.out.println("==========");
 		for(int i = 1; i <= 10; i++) {
 			if (i % 2 == 0) {
 				System.out.println(i);
 			}
 		}
 		
-//		== for 반복문을 사용하여 구구단의 일부를 출력하는 코드 ==
-//		EX) 3단
-		int num = 3;
-		for(int i = 1; i <=9; i++) {
-			System.out.println(num + "X" + i + "=" + num * i);
-		}
 		
-//		== 중첩 반복문을 사용하여 구구단 전체를 출력하는 코드 ==
-		System.out.println("==구구단==");
 		
-		for(int i = 0; i < 8; i++) {
-			int dan = i + 2;
-			System.out.println("[" + dan + "단]"); // [2단]
-			
-			for (int j = 0; j < 9; j++) {
-				int number = j + 1; // number: 1 ~ 9
-				System.out.println(dan + "X" + number + "=" + dan * number);
-			}
-		}
+		
 		
 	}
 }
