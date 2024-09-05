@@ -1,0 +1,9 @@
+package chapter02;
+
+public class E_Practice {
+	// main 메서드
+	// main + 자동 완성 (ctrl +space)
+	public static void main(String[] args) {
+		
+	}
+}

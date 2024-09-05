@@ -1,0 +1,21 @@
+package chapter03;
+
+import java.util.Arrays;
+
+public class D_Array {
+	public static void main(String[] args) {
+		// 자바의 기본 배열 형태
+		// : 한 번 생성되면 크기 변경 X
+		// >> 변경 시 새로운 배열 생성하여 원래 배열 요소를 복사
+		int[] numbers = new int[5];
+		System.out.println(Arrays.toString(numbers)); // [0, 0, 0, 0, 0]
+		
+		// == 동적 배열 (ArrayList) 사용법 ==
+		// : 자바의 ArrayList 라이브러리 내부의 기능
+		// : java.utils.ArrayList를 import 해서 사용
+		
+		
+		
+		
+	}
+}
