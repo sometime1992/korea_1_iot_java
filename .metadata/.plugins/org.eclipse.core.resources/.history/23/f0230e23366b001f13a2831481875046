@@ -1,0 +1,27 @@
+package chapter03;
+
+import java.util.ArrayList;
+import java.util.Random;
+
+public class E_Array {
+	public static void main(String[] args) {
+		
+		// ArrayLIst 생성
+		// : 문자열(String) 요소를 담는 배열
+		ArrayList<String> items = new ArrayList<String>();
+		
+		items.add("사과");
+		items.add("연필");
+		items.add("책");
+		items.add("시계");
+		items.add("텀블러");
+		
+		// 난수를 생성하는 Random 기능
+		
+		Random random = new Random();
+		
+		
+		
+		
+	}
+}

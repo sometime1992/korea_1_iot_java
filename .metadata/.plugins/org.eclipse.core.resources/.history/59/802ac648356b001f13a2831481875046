@@ -68,8 +68,7 @@ public class D_Array {
 		
 		// == 특정 요소 접근 ==
 		// 배열명.get(인덱스번호)
-		System.out.println(arrayList.get(1)); // 123
-		
+		System.out.println(arrayList.get(1));
 		
 		
 		

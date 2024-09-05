@@ -57,18 +57,6 @@ public class D_Array {
 		arrayList.remove(2);
 		System.out.println(arrayList); // [10, 50]
 		
-		// == ArrayList 크기 확인 ==
-		// 배열명.size();
-		System.out.println(arrayList.size()); // 2
-		
-		// == 원하는 위치에 데이터 삽입 ==
-		// : 배열명.add(인덱스번호, 데이터값);
-		arrayList.add(1, 123);
-		System.out.println(arrayList); // [10, 123, 50]
-		
-		// == 특정 요소 접근 ==
-		// 배열명.get(인덱스번호)
-		System.out.println(arrayList.get(1)); // 123
 		
 		
 		
