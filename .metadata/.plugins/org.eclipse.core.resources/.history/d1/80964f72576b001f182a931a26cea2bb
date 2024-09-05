@@ -1,0 +1,12 @@
+package chapter04;
+
+
+// 클래스 변수 VS 인스턴스 변수
+public class Object06 {
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+}

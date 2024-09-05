@@ -7,9 +7,9 @@ public class E_Operation {
 		System.out.println(10 + 20); // 30
 		System.out.println(10 - 20); // -10
 		System.out.println(10 * 20); // 200
-		System.out.println(21 / 10); // 2 >> 나눔 결과의 몫을 저장
+		System.out.println(21 / 10); // 2 >> 나눈 결과의 몫을 저장
 		
-		System.out.println(21 % 20); // 1 >> 나눈 결과의 나머지를 저장
+		System.out.println(21 % 10); // 1 >> 나눈 결과의 나머지를 저장
 		
 		System.out.println("=== 증감 연산자 ===");
 		int number = 10;
@@ -36,7 +36,7 @@ public class E_Operation {
 		System.out.println("=== 논리 연산자 ===");
 		// : 논리 값(boolean)값을 연산
 		
-		// &&: and(논리곱)
+		// &&: and(논리곲) 
 		System.out.println(true && true);
 		System.out.println(true && false);
 		
@@ -46,7 +46,7 @@ public class E_Operation {
 		
 		// !: not(부정논리)
 		System.out.println(!true);
-		System.out.println(!false);
+		System.out.println(!false);		
 		
 		System.out.println("=======");
 		System.out.println(3 > 2 && 1 == 1); // true
@@ -61,11 +61,8 @@ public class E_Operation {
 		System.out.println(x % y == 0 ? "2의 배수입니다." : "2의 배수가 아닙니다.");
 		
 		System.out.println();
-
+		
 		// Window >> Editor >> Toggle Word Wrap 클릭
 		// : alt + shift + y
-		
-		
-		
 	}
 }

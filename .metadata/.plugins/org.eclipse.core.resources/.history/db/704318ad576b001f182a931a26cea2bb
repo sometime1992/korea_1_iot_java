@@ -1,0 +1,15 @@
+package chapter04;
+
+
+// 클래스 변수 VS 인스턴스 변수
+
+// 형태
+// 필드(속성, 멤버 변수) 중에 static이 붙은 것은 클래스 변수, 붙지 않은 것은 인스턴스 변수
+public class Object06 {
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+}

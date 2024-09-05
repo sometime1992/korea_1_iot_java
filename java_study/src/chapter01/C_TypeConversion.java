@@ -16,8 +16,8 @@ public class C_TypeConversion {
 		byte smallBowl = 10; // 1byte
 		int bigBowl = 10000; // 4byte
 		
-		// 작은 범위의 타입을 큰 타입으로 넣을 때는
-		// 컴파일러가 자동으로 형 변환을 수행 
+		// 작은 범위의 타입을 큰 타입으로 넣을 때는 
+		// 컴파일러가 자동으로 형 변환을 수행
 		bigBowl = smallBowl;
 		
 		byte a = 32;
@@ -26,14 +26,14 @@ public class C_TypeConversion {
 		long d = c;
 		
 		float e = d; // 실수는 정수 자료형 보다 크다.
-			
+		
 		// 2. 강제 형 변환 (명시적)
 		// : 크기가 작은 자료형으로의 변환
 		int number1 = 1234;
 		float fNumber1 = number1; // 값 손실 일어나지 X
 		
 		float fNumber2 = 3.14f;
-//		int number2 = fnumber2; // 실수를 정수로 타입 변환 시 오류!
+//		int number2 = fNumber2; // 실수를 정수로 타입 변환 시 오류!
 		
 		// 강제 형 변환 방법
 		// (작은변환자료형)큰데이터값;
@@ -41,9 +41,10 @@ public class C_TypeConversion {
 		
 		// 실수를 정수로 변환 시
 		// : 소수점 이하의 데이터가 버려짐
-		System.out.println(number2); // 3.14 ----> 3
+		System.out.println(number2); // 3
 		
 		// >> char 자료형의 형 변환 (char: 2byte)
+		
 		char a1 = 'a'; // 일반 문자값
 		char a2 = 97; // 아스키코드값
 		char a3 = '\u0061'; // 유니코드값
@@ -60,15 +61,14 @@ public class C_TypeConversion {
 		System.out.println((int)example + 1); // 44033
 		System.out.println((char)((int)example + 1)); // 각
 		
-		// cf) char 자료형은 음수 표현식 X
+		// cf) char 자료형은 음수 표현식 X		
 		
 		long l1 = 123456;
 		int i1 = (int)l1;
 		short s1 = (short)i1;
 		byte b1 = (byte)s1;
 		System.out.println(b1); // 64
-		
-		
-		}
+
+	}
 
 }

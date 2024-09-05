@@ -1,0 +1,11 @@
+package chapter05;
+
+
+class Example {
+	
+}
+public class Method02 {
+	public static void main(String[] args) {
+		
+	}
+}

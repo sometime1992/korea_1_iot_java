@@ -9,10 +9,10 @@ public class D_While {
 		// >> if 문의 반복 형태
 		
 		/*
-		 while (조건) {
-		 	조건이 참일 때 실행
-		 }
-		 */
+		while (조건) {
+		   조건이 참일 때 실
+		}
+		*/
 		
 		// 초기화
 		int num = 1;
@@ -22,12 +22,12 @@ public class D_While {
 		}
 		
 		// cf) while문 내부에서는 코드블록의 계속적 실행: continue
-		//	   while문의 코드블록을 중단: break;
+		//     while문의 코드블록을 중단: break;
 		
 		int number = 0;
 		while (true) { // 무한 루프
 //			0부터 20까지 중에서 홀수만 출력
-			if(number % 2 == 0) {
+			if (number % 2 == 0) {
 				number++;
 				// 루프 안에서 continue를 만나면 아래의 코드를 모두 무시하고 다시 조건을 검사
 				continue;
@@ -38,7 +38,7 @@ public class D_While {
 			number++;
 			
 			if (number == 20) break;
-		}
-		
+			
+		}		
 	}
 }

@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class E_Array {
 	public static void main(String[] args) {
 		
-		// ArrayLIst 생성
+		// ArrayList 생성
 		// : 문자열(String) 요소를 담는 배열
 		ArrayList<String> items = new ArrayList<String>();
 		
@@ -21,7 +21,7 @@ public class E_Array {
 		// >> 무작위의 실수 생성
 		Random random = new Random();
 		
-		// 0번째 인덱스 부터 마지막 요소의 인덱스까지의 수 중에서 무작위 수를 생성
+		// 0번 째 인덱스 부터 마지막 요소의 인덱스까지의 수 중에서 무작위 수를 생성
 		// random.nextInt(숫자값);
 		// >> 0부터 해당 숫자 미만의 정수가 생성
 		String selectedItem = items.get(random.nextInt(items.size()));
@@ -46,8 +46,6 @@ public class E_Array {
 		}
 		
 		sc.close();
-		System.out.println("종료되었습니다.");
-		
-		
+		System.out.println("종료되었습니다.");		
 	}
 }

@@ -4,12 +4,12 @@ package chapter03;
 // : 같은 타입의 여러 변수를 하나의 집합으로 묶어서 처리하는 자료 구조
 // - 데이터를 연속적으로 저장
 // - 순서 O (index 인덱스번호, 0부터 1씩 증가되는 값)
-// - 중복 O 
+// - 중복 O
 public class A_Array {
 	public static void main(String[] args) {
 		// 배열 VS 변수
 		// 배열은 '생성한다' >> new 연산자를 사용
-		// 변수는 '선언하다'
+		// 변수는 '선언한다'
 		
 		// 1) 변수
 		int korean = 90;
@@ -19,24 +19,24 @@ public class A_Array {
 		// 2) 배열
 		// : 생성하여 사용 - new 연산자
 		
-		// === 배열의 선언 === 
+		// === 배열의 선언 ===
 		// : 생성한 배열을 담을 그릇
 		// >> 데이터타입[] 배열명;
 		// >> 데이터타입 배열명[];
-		
+
 		int[] array; // 정수형의 데이터를 담을 수 있는 배열
 		
 		// === 배열의 생성 ===
 		// : 실제 데이터가 저장되는 것이 아니라 데이터 배열이 저장된 첫 번째 메모리 주소가 저장 
-		// : >> new 데이터타입[배열의 길이];
+		// >> new 데이터타입[배열의 길이]; 
 		array = new int[3];
 		
 		System.out.println(array); // [I@4e50df2e
-
-		// === 배열의 요소에 접근 ===
-		//  배열명[인덱스번호]
-		// +) 데이터 변경(삽입): 배열명[인덱스번호] = 데이터;
 		
+		// === 배열의 요소에 접근 ===
+		// 배열명[인덱스번호] 
+		// +) 데이터 변경(삽입): 배열명[인덱스번호] = 데이터;
+
 		// cf) 배열 생성 시 모든 요소는 해당 데이터 타입의 기본값으로 초기화
 		// 숫자(0), 문자열(''), 논리형(false)
 		
@@ -48,15 +48,15 @@ public class A_Array {
 		System.out.println(array[2]);
 		
 //		System.out.println(array[3]);
-		
-		// === 배열의 선언과 동시에 초기화 === 
+
+		// === 배열의 선언과 동시에 초기화 ===
 		// : new 연산자를 사용한 직접적인 배열 생성 시 길이 지정 X
 		
-		// a. 데이터타입[] 배열명 = new 데이터타입[] {요소1, 요소2, 요소3, ...}
+		// a. 데이터타입[] 배열명 = new 데이터타입[] {요소1, 요소2, 요소3, ...};
 		int[] scoreList = new int[] {90, 85, 100};
 		System.out.println(scoreList[0]);
 		
-		// b. 데이터타입[] 배열명 = {요소1, 요소2, 요소3, ...}
+		// b. 데이터타입[] 배열명 = {요소1, 요소2, 요소3, ...};
 		char[] greet = {'h', 'e', 'l', 'l', 'o'};
 		System.out.print(greet[0]);
 		System.out.print(greet[1]);
@@ -84,7 +84,7 @@ public class A_Array {
 		fruits[0] = "사과";
 		System.out.println(fruits[0]);
 		
-		// === 배열의 요소 삭제 ===
+		// === 배열 요소 삭제 ===
 		// : 삭제 기능을 담당하는 문법 X
 		// >> 삭제할 요소를 제외한 나머지 요소를 새로운 배열로 복사
 		int[] original = {1, 2, 3, 4};
@@ -94,7 +94,7 @@ public class A_Array {
 		int[] result = new int[originalLength - 1];
 		
 		int k = 0; // 새로운 배열의 인덱스 번호
-		for(int i = 0; i < originalLength; i++) {
+		for (int i = 0; i < originalLength; i++) {
 			if (i == removeIndex) {
 				continue; // 루프의 나머지 부분을 건너뛰고 다음 반복을 진행
 			}
@@ -104,9 +104,10 @@ public class A_Array {
 			// 2, 3
 			result[k++] = original[i];
 		}
-		System.out.println(result[0]);
-		System.out.println(result[1]);
-		System.out.println(result[2]);
+		
+		System.out.println(result[0]); // 1
+		System.out.println(result[1]); // 2
+		System.out.println(result[2]); // 4
 		
 		// === 배열을 순회하는 향상된 for문(for-each문)
 		// for (데이터타입 변수명: 해당 데이터타입의 배열) {
@@ -115,8 +116,7 @@ public class A_Array {
 		
 		int[] arrayNumber = {1, 3, 5, 7, 9};
 		for (int number: arrayNumber) { // number 변수: for문 내의 변수
-			System.out.println(number);
+			System.out.print(number);
 		}
-		
 	}
 }

@@ -10,7 +10,7 @@ public class D_IO {
 		// 입력: 콘솔창을 통해 개발자로부터 입력을 받는 것
 		// 출력: 콘솔창으로 데이터를 출력하는 것
 		
-		// 1. 출력
+		// 1. 출력 
 //		System.out.println(출력하고자하는 변수 또는 상수 또는 데이터값);
 //		syso 단축키로 자동 완성
 		
@@ -20,7 +20,7 @@ public class D_IO {
 		// ln: line (줄바꿈)
 		
 		System.out.print("안녕");
-		System.out.print("하세여"); // 안녕하세요
+		System.out.print("하세요"); 
 		
 		System.out.println("!!!"); // 안녕하세요!!!
 		
@@ -40,34 +40,34 @@ public class D_IO {
 		Scanner sc = new Scanner(System.in);
 		
 		// 스캐너 사용 방법
-//		sc.next(); // 입력 내용을 문자열로 반
+//		sc.next(); // 입력 내용을 문자열로 반환
 //		sc.nextLine(); // 엔터까지의 전체 라인을 문자열로 반환
 //		sc.nextInt(); // 정수 데이터
 //		sc.nextDouble(); // 실수 데이터
 		
-		System.out.println("정수를 입력해 주세요.");
+		System.out.println("정수를 입력해주세요.");
 		int age = sc.nextInt();
-		sc.nextLine();
+//		sc.nextLine();
 		System.out.println("입력한 나이: " + age);
 		
 		// cf) 개행 문자 + 버퍼
-		// >> nextInt()나 nextDouble()의 경우
+		// : nextInt()나 nextDouble()의 경우 
 		// >> 버퍼에 개행 문자가 입력으로 처리되는 문제가 발생
-		// >> 위의 메서드 사용 후
-		//		, nextLine()의 입력 메서드 호출로 버퍼의 데이터를 사용
+		// >> 위의 메서드 사용 후 
+		//    , nextLine()의 입력 메서드 호출로 버퍼의 데이터를 사용
 		
-		System.out.print("나이를 입력하세요: ");
+		System.out.print("키를 입력하세요: ");
 		int height = sc.nextInt(); // 정수 입력
 		
-//		버퍼에 남아있는 개행 문자를 처리
-		sc.nextLine();
+//		버퍼에 남아있는 개행 문자(Enter)를 처리
+		sc.nextLine(); 
 		
 		System.out.print("이름을 입력하세요: ");
 		String name = sc.nextLine();
 		
 		// 스캐너 종료 방법
 //		: 스캐너 사용 후 메모리 최적화를 위해 스캐너를 종료
-//		>> .close();
+//		>> .close()
 		sc.close();
 		
 //		sc.next(); // - Error

@@ -72,8 +72,6 @@ public class B_DataType {
 		String name = "이승아";
 		int[] scores = {90, 80, 75};
 		
-			
-		
 	}
 
 }

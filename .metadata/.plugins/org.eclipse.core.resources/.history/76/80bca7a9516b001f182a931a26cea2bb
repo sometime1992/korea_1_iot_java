@@ -1,0 +1,44 @@
+package chapter04;
+
+// 클래스 생성 (Book, Person, ...)
+// : 속성 2개
+// : 메서드 1개
+
+class Book {
+	int bookNumber;
+	String bookName;
+	String author;
+	
+	// 클래스 내부의 동작(메서드)
+	void displayInfo() {
+		System.out.println("책 번호: " + bookNumber + ", 책 이름: " + bookName + ", 책 저자: " + author );
+	}
+	
+	// === 생성자 함수 ===
+	// : new 연산자 사용 시 호출 될 메서드
+	// >> 생략 시 속성에 기본값이 할당
+	// 일반 타입: int(0), boolean(false), char("")
+	// 참조 타입: null
+	
+	Book(int bookNumber, String bookName, String author) {
+		this.bookNumber = bookNumber;
+		this.bookName = bookName;
+		this.author = author;
+	}
+	
+}
+
+public class Object04 {
+	public static void main(String[] args) {
+		// 위에서 정의한 클래스를 사용하여 객체 인스턴스화
+		Book book1 = new Book(1, "개미", "베르나르");
+		// 속성 출력
+		System.out.println(book1.bookNumber);
+		System.out.println(book1.bookName);
+		System.out.println(book1.author);
+		
+		// 메서드 호출
+		book1.displayInfo();
+		
+	}
+}

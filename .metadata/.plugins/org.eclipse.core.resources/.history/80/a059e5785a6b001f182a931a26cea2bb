@@ -1,0 +1,28 @@
+package chapter05;
+
+
+class Calculator {
+	// 계산기의 덧셈 기능
+	
+	int addNumbers(int a, int b) {
+		// 메서드의 반환값 작성
+		// : return 키워드를 사용하여 지정된 타입의 데이터를 반환
+		int sum = a + b;
+		String name = "이승아";
+		return sum;
+	}
+}
+
+public class Method01 {
+	public static void main(String[] args) {
+		
+		// 메서드 사용
+		// >> 해당 메서드가 정의된 클래스의 객체를 생성
+		// >> .연산자를 사용하여 호출
+		Calculator calc = new Calculator();
+		
+		System.out.println(calc.addNumbers(10, 20));
+		
+		
+	}
+}
