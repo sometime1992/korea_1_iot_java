@@ -1,0 +1,32 @@
+package chapter05;
+
+// 사칙연산 클래스
+// : 두 개의 값을 매개변수로 전달받아 사칙연산 수행
+class MyMath {
+	// 매개변수 O, 반환값 O
+	int add(int a, int b) {return a + b;}
+	int subtract(int a, int b) {return a - b;}
+	int multiply(int a, int b) {return a * b;}
+	int divide(int a, int b) {return a / b;}
+	
+	// return문
+	// : 현재 실행중인 메서드를 종료하고 호출한 메서드로 돌아감
+	// >> 반환값 유무에 상관없이 반드시 존재!
+	
+	// 반환이 없는 메서드
+	void noReturn() {
+		System.out.println("해당 메서드는 반환값이 없습니다.");
+	}
+}
+
+public class Method03 {
+	public static void main(String[] args) {
+		// 인스턴스 생성
+		MyMath mm = new MyMath();
+		
+		System.out.println(mm.add(10, 20)); // 메서드 호출
+		
+		
+		
+	}
+}
