@@ -1,0 +1,32 @@
+package otherPackage;
+
+// 접근 범위: 제한 X
+public class OtherClass {
+	// 클래스의 속성
+	public int publicVar = 1;
+	
+	protected int protectedVar = 2;
+	
+	int defaultVar = 3;
+	
+	private int privateVar = 4;
+	
+	// 클래스의 메서드
+	public void ex1() {
+		
+	}
+	
+	public void ex2() {
+		
+	}
+	
+	void ex3() {
+		
+	}
+	
+	private void ex4() {
+		
+	}
+	
+	
+}

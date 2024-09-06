@@ -1,0 +1,11 @@
+package chapter06;
+
+// === 오러라이딩 ===
+// : 자식 클래스가 부모 클래스에서 정의된 메서드를 자신의 상황에 맞게 재정의
+// >> 상속 관계에 있는 클래스들 사이에서 사용
+
+public class Overriding {
+	public static void main(String[] args) {
+		
+	}
+}
