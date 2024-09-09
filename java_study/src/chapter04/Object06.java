@@ -37,13 +37,19 @@ class Counter {
 }
 public class Object06 {
 	public static void main(String[] args) {
+//		클래스 변수
 		Counter c1 = new Counter();
 		Counter c2 = new Counter();
 		Counter c3 = new Counter();
 		Counter c4 = new Counter();
 		Counter c5 = new Counter();
 		
+		System.out.println(c1.count); // 5
+		System.out.println(c2.count); // 5
 		System.out.println(c3.count); // 5
+		System.out.println(c4.count); // 5
+		System.out.println(c5.count); // 5
+		
 		
 		new Counter();
 		new Counter();
@@ -51,5 +57,12 @@ public class Object06 {
 		new Counter();
 
 		System.out.println(Counter.count); // 9
+		
+//		인스턴스 변수
+		Example e1 = new Example();
+		
+		e1.instanceValue = 10;
+		
+		System.out.println(e1.instanceValue);
 	}
 }

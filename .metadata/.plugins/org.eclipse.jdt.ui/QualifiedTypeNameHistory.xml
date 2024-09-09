@@ -40,4 +40,5 @@
     <fullyQualifiedTypeName name="chapter07.MyFinalClass"/>
     <fullyQualifiedTypeName name="chapter07.ChildClass"/>
     <fullyQualifiedTypeName name="javax.swing.text.AsyncBoxView.ChildLocator"/>
+    <fullyQualifiedTypeName name="chapter04.Example"/>
 </qualifiedTypeNameHistroy>

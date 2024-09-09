@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;java_study&apos;&#x0D;&#x0A;- Original project: &apos;java_study&apos;&#x0D;&#x0A;- Original element: &apos;chapter08.B_Ploymorphism.java&apos;" description="Delete element" element1="/src&lt;chapter08{B_Ploymorphism.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1725842483031" subPackages="false" version="1.0"/>
+</session>

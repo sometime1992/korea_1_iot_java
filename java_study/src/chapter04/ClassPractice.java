@@ -14,6 +14,7 @@ class Card {
 public class ClassPractice {
 	public static void main(String[] args) {
 		// 정적(클래스) 변수
+		// 클래스의 생성없이 사용이 가능
 		System.out.println(Card.width);
 		System.out.println(Card.height);
 		

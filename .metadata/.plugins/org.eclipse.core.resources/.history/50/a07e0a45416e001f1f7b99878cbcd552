@@ -1,0 +1,19 @@
+package chapter08;
+
+// == 자바에서의 타입 변환 ==
+// 자료형 변환: 변수 & 자료형에서의 자동 형 변환, 강제 형 변환
+// 클래스의 타입 변환: 자동, 강제 형 변환
+// - 자료형 변환보다 가능한 범위가 좁음.
+// - 서로 상속 관계에 있는 클래스 사이에서만 변환 가능
+
+class Parent {
+	void displayInfo() {
+		System.out.println("부모 클래스입니다.");
+	}
+}
+
+public class A_Class_Type {
+	public static void main(String[] args) {
+		
+	}
+}
