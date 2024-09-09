@@ -63,7 +63,7 @@ class Cat extends Animal {
 }
 
 class Dog extends Animal {
-	void makeSound() {
+	void makesound() {
 		System.out.println("멍멍");
 	}
 }
@@ -78,19 +78,5 @@ public class A_Abstract {
 		
 		Student student = new Student();
 		student.work(); // 학생은 공부를 합니다.
-		
-		// = 인스턴스 생성 =
-		// Animal animal = new Animal(); - Error
-		
-		Cat cat = new Cat();
-		Dog dog = new Dog();
-		
-		cat.eat(); // 고양이는 츄르를 먹습니다. >> 오버라이딩
-		cat.makeSound();
-		
-		dog.eat(); // 동물은 먹이를 먹습니다. >> 부모 클래스에서 정의된 기능
-		dog.makeSound();
-		
-		
 	}
 }

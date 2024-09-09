@@ -38,36 +38,6 @@ class Student extends Human {
 	}
 }
 
-// == 추상 클래스 예제 ==
-abstract class Animal {
-	// 추상 메서드
-	abstract void makeSound();
-	
-	// 구체적인 메서드 (일반 메서드 - 선언부, 구현부)
-	void eat() {
-		System.out.println("동물은 먹이를 먹습니다.");
-	}
-}
-
-class Cat extends Animal {
-	// 추상 메서드 구현
-	void makeSound() {
-		System.out.println("야옹");
-	}
-	
-	// 상속받은 메서드 재정의(오버라이딩)
-	@Override
-	void eat() {
-		System.out.println("고양이는 츄르를 먹습니다.");
-	}
-}
-
-class Dog extends Animal {
-	void makeSound() {
-		System.out.println("멍멍");
-	}
-}
-
 public class A_Abstract {
 	public static void main(String[] args) {
 		// Human human = new Human();
@@ -78,19 +48,5 @@ public class A_Abstract {
 		
 		Student student = new Student();
 		student.work(); // 학생은 공부를 합니다.
-		
-		// = 인스턴스 생성 =
-		// Animal animal = new Animal(); - Error
-		
-		Cat cat = new Cat();
-		Dog dog = new Dog();
-		
-		cat.eat(); // 고양이는 츄르를 먹습니다. >> 오버라이딩
-		cat.makeSound();
-		
-		dog.eat(); // 동물은 먹이를 먹습니다. >> 부모 클래스에서 정의된 기능
-		dog.makeSound();
-		
-		
 	}
 }

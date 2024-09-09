@@ -85,10 +85,10 @@ public class A_Abstract {
 		Cat cat = new Cat();
 		Dog dog = new Dog();
 		
-		cat.eat(); // 고양이는 츄르를 먹습니다. >> 오버라이딩
+		cat.eat();
 		cat.makeSound();
 		
-		dog.eat(); // 동물은 먹이를 먹습니다. >> 부모 클래스에서 정의된 기능
+		dog.eat();
 		dog.makeSound();
 		
 		

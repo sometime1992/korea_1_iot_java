@@ -1,0 +1,36 @@
+package chapter09;
+
+// 인터페이스 멤버 변수의 특성
+// : 자동으로 public static final 속성을 가짐
+// : 모든 멤버 변수는 인터페이스 상수로 동작
+// >> 어디서든 접근 가능 + 인스턴스화 없이 인터페이스명으로 접근 가능 + 값 변경 불가능
+
+interface Example1 {
+	int EXAMPLE_VARIABLE = 10;
+	void printVar1(); // 추상 메서드
+	
+	default void method() {
+		System.out.println("예시 1");
+	}
+}
+
+interface Example2 {
+	void printVar2();
+	
+	default void method() {
+		System.out.println("예시 2");
+	}
+}
+
+// 다중 인터페이스 구현
+// : 자바에서는 여러 개의 인터페이스를 동시에 구현이 가능
+// >> 둘 이상의 타입으로 동작 가능
+
+// == 다중 인터페이스 구현 방법 ==
+// : implememts 키워드 뒤에 여러 개의 인터페이스를 ,로 구분하여 나열
+
+public class D_Interface {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,12 @@
+package chapter09;
+
+// 인터페이스 멤버 변수의 특성
+// >> 자동으로 public static final 속성을 가짐
+// >> 모든 멤버 변수는 인터페이스 상수로 동작
+
+
+public class D_Interface {
+	public static void main(String[] args) {
+		
+	}
+}

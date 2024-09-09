@@ -1,0 +1,26 @@
+package chapter09;
+
+// 추상화(Abstract)
+
+// 추상 클래스(미완성 설계도?)
+// : 미완성 설계도, 완전하지 않은 클래스
+// >> 다른 클래스가 상속받아 완성 가능, 그 자체로는 인스턴스 생성 X
+
+// == 추상 클래스의 특징 ==
+// 1. 클래스 자체로는 인스턴스 생성 X (new 키워드 사용 불가)
+// 2. 추상 메서드를 하나 이상 포함!
+// 3. 확장성 제공을 위한 사용
+
+// == 추상 클래스의 구현 방법 ==
+// : abstract 키워드를 사용하여 선언
+
+// == 추상 클래스 예시 ==
+abstract class Human {
+	
+}
+
+public class A_Abstract {
+	public static void main(String[] args) {
+		
+	}
+}
