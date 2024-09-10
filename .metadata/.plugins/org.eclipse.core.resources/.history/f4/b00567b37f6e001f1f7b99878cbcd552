@@ -1,0 +1,11 @@
+package chapter10;
+
+// 생일까지 남은 일수 계산 프로그램
+// : 사용자로부터 생년월일을 입력 받고
+// : 다가오는 생일까지 남은 일수를 반환
+
+public class Practice {
+	public static void main(String[] args) {
+		
+	}
+}

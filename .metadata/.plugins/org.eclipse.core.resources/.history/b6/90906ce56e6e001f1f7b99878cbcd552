@@ -1,0 +1,12 @@
+package chapter10;
+
+// 자바 예외 처리
+
+// 예외 (Exception)
+// : 프로그램 실행 중에 발생할 수 있는 예기치 못한 문제나 조건
+
+public class Exception01 {
+	public static void main(String[] args) {
+		
+	}
+}

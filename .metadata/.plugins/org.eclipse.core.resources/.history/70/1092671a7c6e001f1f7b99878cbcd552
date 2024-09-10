@@ -1,0 +1,49 @@
+package chapter10;
+
+// java.lang
+// : 자바 프로그램의 가장 기본적인 클래스들을 포함
+// >> 별도의 import문 없이 사용 가능
+
+// 1) Object 클래스
+// >> 자바의 모든 클래스의 최상위 클래스, 기본적으로 생략
+
+class MyClass extends Object {
+	// toString() 메서드
+	// : 객체의 문자열 표현을 반환
+	
+	// equals() 메서드
+	// : 두 객체가 동등한지 비교
+	private int id;
+	private String name;
+	
+	public MyClass(int id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+	
+	@Override
+	public String toString() { // 문자열을 출력하기 위한 메서드로 크게 기능이 있지는 않음
+		return "MyClass" + id + name;
+	}
+}
+
+// 2) Math 클래스
+
+// 3) String 클래스
+
+public class JavaLang {
+	public static void main(String[] args) {
+		MyClass myClass1 = new MyClass(123, "이승아");
+		MyClass myClass2 = new MyClass(234, "이도경");
+		System.out.println(myClass1.toString());
+		System.out.println(myClass2.toString());
+		
+		System.out.println(myClass1.equals(myClass2)); // false
+		
+		String name = "이승아";
+		String name2 = name;
+		System.out.println(name.equals(name2)); // true
+		System.out.println(name == name2); // true
+		
+	}
+}

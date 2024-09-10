@@ -1,0 +1,12 @@
+package chapter10;
+
+// 자바 예외 처리
+
+// 예외 (Exception)
+
+
+public class Exception01 {
+	public static void main(String[] args) {
+		
+	}
+}

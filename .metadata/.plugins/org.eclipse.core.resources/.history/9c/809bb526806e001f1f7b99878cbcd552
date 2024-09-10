@@ -1,0 +1,20 @@
+package chapter10;
+
+import java.util.Scanner;
+
+// 생일까지 남은 일수 계산 프로그램
+// : 사용자로부터 생년월일을 입력 받고
+// : 다가오는 생일까지 남은 일수를 반환
+
+public class Practice {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		// 1. 사용자로부터 생년월일 각각 입력 받기
+		System.out.println("연도: YYYY, 월: 1-12, 일: 1-31");
+		int birthYear = sc.nextInt();
+		int birthMonth= sc.nextInt();
+		int birthDay = sc.nextInt();
+		
+	}
+}

@@ -61,6 +61,7 @@ class Card implements PlayingCard{
 	private String cardNumber;
 	private String cardKind;
 	
+	// 사용자 정의 생성자(private 값 초기화)
 	public Card(String cardNumber, String cardKind) {
 		this.cardKind = cardKind;
 		this.cardNumber = cardNumber;

@@ -1,0 +1,13 @@
+package chapter09;
+
+// 추상 클래스
+// ==  모바일 애플리케이션 ==
+abstract class MobileApp {
+	
+}
+
+public class E_Practice {
+	public static void main(String[] args) {
+		
+	}
+}
