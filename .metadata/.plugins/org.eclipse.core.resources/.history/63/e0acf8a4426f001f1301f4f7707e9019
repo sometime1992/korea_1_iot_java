@@ -1,0 +1,12 @@
+package chapter13;
+
+import lombok.Data;
+import lombok.*;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
+public class Example2 {
+	private String name;
+	private int age;
+}

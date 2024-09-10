@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialog.dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="705"/>
-		<item key="DIALOG_Y_ORIGIN" value="351"/>
-		<item key="DIALOG_WIDTH" value="1186"/>
+		<item key="DIALOG_X_ORIGIN" value="32"/>
+		<item key="DIALOG_Y_ORIGIN" value="268"/>
+		<item key="DIALOG_WIDTH" value="1213"/>
 		<item key="DIALOG_HEIGHT" value="1102"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 	<section name="org.eclipse.ui.preferences.keysPreferencePage">
+	</section>
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="-146"/>
+		<item key="DIALOG_Y_ORIGIN" value="-405"/>
+		<item key="DIALOG_WIDTH" value="932"/>
+		<item key="DIALOG_HEIGHT" value="1211"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="PropertyDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="960"/>
+		<item key="DIALOG_Y_ORIGIN" value="346"/>
+		<item key="DIALOG_WIDTH" value="1334"/>
+		<item key="DIALOG_HEIGHT" value="644"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>

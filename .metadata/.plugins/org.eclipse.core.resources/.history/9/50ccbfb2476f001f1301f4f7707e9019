@@ -1,0 +1,38 @@
+package chapter14.model;
+
+import java.util.HashMap;
+import java.util.Map;
+
+// 음식점 메뉴 주문 시스템
+// - 사용자가 메뉴를 선택, 수량을 입력 >> 총 가격을 계산
+// - 종료 옵션을 선택할 때까지 반복하여 메뉴 선택을 받음
+
+// "메뉴" 객체
+// : 메뉴명 - 가격의 쌍으로 데이터 관리
+
+public class OrderModel {
+	// 메뉴 이름(키), 가격(값)으로 하는 HashMap
+	private Map<String, Integer> menuPrices;
+	
+	// 주문된(선택된) 메뉴의 이름과 키를 가지는 HashMap
+	private Map<String, Integer> order;
+	
+	// 주문이 완료되었는지 여부 - boolean
+	private boolean isComplete;
+	
+	public OrderModel() {
+		menuPrices = new HashMap<String, Integer>();
+		order = new HashMap<String, Integer>();
+		isComplete = false;
+		
+		menuPrices.put("Pizza", 22000);
+		menuPrices.put("Pasta", 18000);
+		menuPrices.put("Coke", 2000);
+		menuPrices.put("Ade", 5000);
+	}
+	
+	// 메뉴와 가격을 초기화
+	
+	
+	
+}
