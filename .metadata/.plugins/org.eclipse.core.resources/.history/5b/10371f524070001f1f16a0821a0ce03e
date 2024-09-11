@@ -44,6 +44,7 @@ public class OrderModel {
 		}
 	} 
 	
+	
 	// 2. 총 주문 가격을 계산하는 메서드
 	public int calculateTotal() {
 		int total = 0; // 총 가격 저장 변수

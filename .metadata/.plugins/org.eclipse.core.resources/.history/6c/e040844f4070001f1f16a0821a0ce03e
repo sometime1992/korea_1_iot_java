@@ -42,7 +42,7 @@ public class OrderModel {
 			//	, null 이면 defaultValue를 반환
 			order.put(dish, order.getOrDefault(dish, 0) + quantity);
 		}
-	} 
+	}
 	
 	// 2. 총 주문 가격을 계산하는 메서드
 	public int calculateTotal() {
