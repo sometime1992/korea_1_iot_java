@@ -1,0 +1,24 @@
+package chapter16;
+
+// 동물들의 행동을 정의할 Animal 인터페이스 정의
+interface Animal {
+	void performAction(); // 동물의 행동을 정의하는 추상 메서드
+}
+
+// 동물원 관리 시스템 구현
+class Zoo {
+	
+	// 사자 클래스
+	// 인터페이스 Animal을 구현(implements)하는 사자 클래스
+	static class Lion implements Animal {
+		public void performAction() {
+			
+		}
+	}
+}
+
+public class Practice {
+	public static void main(String[] args) {
+		
+	}
+}

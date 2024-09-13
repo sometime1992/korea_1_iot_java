@@ -1,0 +1,9 @@
+package chapter15;
+
+import java.util.List; // List 컬렉션 프레임워크 - 순서 o, 중복 o
+
+public class Member {
+	private String memberId;
+	private String name;
+	private List<Loan> loans; // 대여 목록
+}

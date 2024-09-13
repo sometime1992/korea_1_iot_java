@@ -1,0 +1,39 @@
+package chapter15;
+
+// 컴퓨터의 현재 "날짜" 정보
+import java.time.LocalDate;
+
+public class Loan {
+	private Member member; // 대여한 회원
+	private Book book; // 대여한 책
+	private LocalDate loanDate; // 대여 날짜
+	private LocalDate returnDate; // 반납 날짜
+	
+	public Loan(Member member, Book book, LocalDate localDate) {
+		this.member = member;
+		this.book = book;
+		this.loanDate = loanDate;
+		this.returnDate = returnDate;
+	}
+	
+	// getter 메서드
+	public Member getMember() { 
+		return member;
+	};
+	public Book getBook() { 
+		return book;
+	};
+	public LocalDate getLoanDate() { 
+		return loanDate;
+	};
+	public LocalDate getReturnDate() { 
+		return returnDate;
+	};
+	
+	// 반납 날짜 설정 (setter)
+	public void setReturnDate(LocalDate returnDate) {
+		this.returnDate = returnDate;
+	}
+	
+	
+}

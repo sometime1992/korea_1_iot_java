@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="chapter09.Police"/>
-    <fullyQualifiedTypeName name="chapter09.Student"/>
-    <fullyQualifiedTypeName name="chapter09.Cat"/>
-    <fullyQualifiedTypeName name="chapter09.Dog"/>
-    <fullyQualifiedTypeName name="chapter09.Animal"/>
-    <fullyQualifiedTypeName name="chapter09.PlayngCard"/>
     <fullyQualifiedTypeName name="chapter09.Card"/>
     <fullyQualifiedTypeName name="chapter09.PlayingCard"/>
     <fullyQualifiedTypeName name="chapter09.Bird"/>
@@ -38,12 +32,8 @@
     <fullyQualifiedTypeName name="chapter11.EventManagement"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="chapter12.controller.BookController"/>
     <fullyQualifiedTypeName name="chapter12.model.Book"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="chapter12.view.BookView"/>
     <fullyQualifiedTypeName name="v"/>
     <fullyQualifiedTypeName name="chapter13.Pair"/>
@@ -60,4 +50,14 @@
     <fullyQualifiedTypeName name="chapter14.model.OrderModel"/>
     <fullyQualifiedTypeName name="chapter14.view.OrderView"/>
     <fullyQualifiedTypeName name="chapter14.controller.OrderController"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="chapter15.Loan"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="chapter15.PaperBook"/>
+    <fullyQualifiedTypeName name="chapter15.EBook"/>
+    <fullyQualifiedTypeName name="chapter15.Member"/>
+    <fullyQualifiedTypeName name="chapter15.BookAlreadyBorrowedException"/>
 </qualifiedTypeNameHistroy>

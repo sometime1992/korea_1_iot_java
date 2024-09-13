@@ -1,0 +1,40 @@
+package chapter16;
+
+// 내부 클래스(Inner Class)
+// : 다른 클래스 내부에 선언된 클래스를 의미
+
+// = 장점 =
+// : 코드의 가독성 향상 - 코드의 구조 파악에 용이
+// : 클래스 간의 관계를 명확하게 함
+// - 내부 클래스는 외부 클래스의 멤버에 쉽게 접근 가능
+
+// = 종류 =
+// 1. 비정적 내부 클래스(가장 기본적인 클래스 형태)
+// : "외부 클래스의 인스턴스"에 속함
+// > 외부 클래스의 인스턴스 변수 및 메서드에 직접 접근 O
+
+// 외부 클래스
+class OuterCalss {
+	private String outerField = "외부 클래스의 필드";
+	
+	// 내부 클래스 - 인스턴스 필드, 인스턴스 메서드 처럼 사용(외부 클래스를 인스턴스화 해야함)
+	class InnerClass {
+		void display() {
+			System.out.println("외부 클래스 필드에 접근: " + outerField);
+		}
+	}
+}
+
+
+
+public class A_Inner01 {
+	public static void main(String[] args) {
+		// 외부 클래스 인스턴스화
+		OuterCalss outer1 = new OuterCalss();
+		
+		
+		
+		
+		
+	}
+}
