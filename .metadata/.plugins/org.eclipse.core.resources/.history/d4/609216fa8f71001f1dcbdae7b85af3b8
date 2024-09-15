@@ -1,0 +1,11 @@
+package chapter16;
+
+// 람다 표현식
+// : 익명 함수를 간결하게 표현, 한 번만 사용되는 함수를 정의
+// > 코드 양을 줄이고 가독성을 향상
+
+public class C_Lambda02 {
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,13 @@
+package chapter15;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Library {
+	private Map<String, Book> books; // 도서관의 모든 책을 관리하는 Map
+	
+	// 생성자
+	public Library() {
+		this.books = new HashMap<String, Book>();
+	}
+}

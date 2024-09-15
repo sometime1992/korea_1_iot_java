@@ -1,7 +1,0 @@
-package chapter05;
-
-public class Overloading02 {
-	public static void main(String[] args) {
-		
-	}
-}

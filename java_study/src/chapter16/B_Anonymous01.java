@@ -43,6 +43,7 @@ public class B_Anonymous01 {
 		
 		a.display();
 		
+		
 	}
 		
 }
