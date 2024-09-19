@@ -1,7 +1,0 @@
-package chapter10;
-
-public class JavaUtil {
-	public static void main(String[] args) {
-		
-	}
-}

@@ -1,0 +1,31 @@
+package chapter18;
+
+// == 빌더 패턴 없이! ==
+// 학생 클래스 구현
+// : name, age (필수 속성)
+// : grade, major (선택적 속성)
+
+// 2) 필수/ 선택적 값을 받을 생성자 구현
+// >> 생성자 4개 구현
+
+// 3) 데이터 후출을 위한 Getter 구현
+// >> 각 필드에 대한 getter 구현
+
+class Student {
+	// 필수 속성
+	private final String name;
+	private final int age;
+	
+	// 선택적 속성
+	private int grade;
+	private String major;
+	
+	private Student() {
+		
+	}
+	
+	
+}
+public class Builder02 {
+
+}

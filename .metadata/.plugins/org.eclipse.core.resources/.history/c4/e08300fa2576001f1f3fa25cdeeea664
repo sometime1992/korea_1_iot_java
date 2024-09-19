@@ -1,0 +1,66 @@
+package chapter18;
+
+// == 빌더 패턴 없이! ==
+// 학생 클래스 구현
+// : name, age (필수 속성)
+// : grade, major (선택적 속성)
+
+// 2) 필수/ 선택적 값을 받을 생성자 구현
+// >> 생성자 4개 구현
+
+// 3) 데이터 추출을 위한 Getter 구현
+// >> 각 필드에 대한 getter 구현
+
+class Student {
+	// 필수 속성
+	private final String name;
+	private final int age;
+	
+	// 선택적 속성
+	private String grade;
+	private String major;
+	
+	// 생성자
+	private Student(String name, int age) {
+		this.name = name;
+		this.age = age;	
+	}
+	
+	// cf) 생성자의 오버로딩
+	// : 파라미터의 개수화 타입이 같다면 생성자 호출 시 충돌 발생
+	private Student(String name, int age, String selectedField) {
+		this.name = name;
+		this.age = age;	
+		this.grade = selectedField;
+	}
+//	private Student(String name, int age, String major) {
+//		this.name = name;
+//		this.age = age;
+//		this.major = major;
+//	}
+	
+	private Student(String name, int age, String grade, String major) {
+		this.name = name;
+		this.age = age;
+		this.grade = grade;
+		this.major = major;
+	}
+	
+	// Getter 메서드
+	public String getName() {
+		return name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public int getGrade() {
+		return grade;
+	}
+	public String getMajor() {
+		return major;
+	}
+	
+}
+public class Builder02 {
+
+}

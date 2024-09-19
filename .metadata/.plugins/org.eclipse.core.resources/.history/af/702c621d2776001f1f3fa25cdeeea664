@@ -1,0 +1,12 @@
+package chapter18;
+
+class Person {
+	private String name;
+	private int age;
+	private String hobby;
+	private String favoriteFood;
+}
+
+public class Builder03 {
+
+}
