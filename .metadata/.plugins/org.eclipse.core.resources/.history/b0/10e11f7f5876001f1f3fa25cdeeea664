@@ -1,0 +1,19 @@
+package chapter20.Library;
+
+import java.util.ArrayList;
+import java.util.List;
+
+// 데이터를 메모리에 저장하고 관리하는 클래스
+public class BookRepository {
+	private List<Book> books = new ArrayList<Book>();
+	private int idCounter = 1;
+	
+	// 메모리에 데이터를 저장하는 메서드
+	public void save(Book book) {
+		// 책을 생성하면서 id값은 전달되지 X >> int 필드의 기본값 0
+		if (book.getId() == 0) {
+			book.setId(idCounter++);
+			books.add(book);
+		}
+	}
+}

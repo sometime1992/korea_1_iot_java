@@ -1,0 +1,69 @@
+package chapter19;
+
+// === 익명 클래스 정의 ===
+// : 클래스를 정의하면서 동시에 객체를 생성하는 방법
+// > 이름이 없기 떄문에 재사용 X, 일회성 사용 객체 정의에 유용
+
+// === 익명 클래스의 특징 ===
+// 1) 한 번만 사용하는 인터페이스, 추상 크래스 구현
+// 2) 특정 로직을 캡슐화 - 내부 클래스의 일종
+// 3) 명시적인 생성자를 가질 수 X
+
+//  === 익명 클래스의 기본 형태 ===
+// : 인터페이스 또는 추상 클래스를 구현
+// new 인터페이스_또는_추상클래스() {
+	// 메서드 오버라이딩 및 클래스 구현
+// }
+
+// 1. 인터페이스 구현 예시
+interface Animal {
+	void sound(); // 추상 메서드 - 구현{}이 업슨 메서드
+	// +) 익명 클래스에서의 인터페이스는 함수형 인터페이스로
+	//	  단 하나의 추상 메서드만을 가지느 구조
+	
+}
+
+// 2. 추상 클래스 구현 예시
+abstract class Vehicle {
+	abstract void run(); // 추상 메서드
+}
+
+// -- 추상 클래스 Person 정의 --
+abstract class Person {
+	abstract String getName();
+}
+
+public class Anonymous {
+	public static void main(String[] args) {
+		
+		Animal dog = new Animal() {
+			
+			@Override
+			public void sound() {
+				System.out.println("멍멍");
+			}
+		};
+		
+		dog.sound(); // 멍멍
+		
+		Vehicle car = new Vehicle() {
+			
+			@Override
+			void run() {
+				System.out.println("자동차가 달립니다.");
+			}
+		};
+		
+		car.run(); // 자동차가 달립니다.
+		
+		Person person = new Person() {
+			
+			@Override
+			String getName() {
+				return "이승아";
+			}
+		};
+		
+		System.out.println(person.getName());
+	}
+}

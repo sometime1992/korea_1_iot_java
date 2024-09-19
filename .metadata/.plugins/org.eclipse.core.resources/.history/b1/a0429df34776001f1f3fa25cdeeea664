@@ -1,0 +1,17 @@
+package chapter19;
+
+// === 스트림 API ===
+// : 자바 8에서 처음 도입됨
+// >> 컬렉션 데이터를 처리하는 도구
+
+// +) 스트림의 주요 특징
+// - 일회성: 한 번 소비되면 다시 사용 X, 새로운 스트림을 생성하여 사용해야 함.
+// - 연산의 분류: 스트림 연산은 중간, 최종 연산으로 나뉨
+// 	 >> 중간 연산: map, filter, sorted
+//	 >> 최종 연산: collect, forEach, reduce 등
+
+public class StreamMain {
+	public static void main(String[] args) {
+		
+	}
+}

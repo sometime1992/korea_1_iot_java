@@ -1,0 +1,11 @@
+package chapter19;
+
+// 익명 클래스
+// : 클래스를 정의하면서 동시에 객체를 생성하는 방법
+// > 이름이 없기 떄문에 재사용 X, 일회성 사용 객체 정의에 유용
+
+public class Anonymous {
+	public static void main(String[] args) {
+		
+	}
+}
