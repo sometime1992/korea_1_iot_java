@@ -40,8 +40,5 @@ public class BookRepository {
 	public List<Book> findAll() {
 		return books;
 	}
-	
-	
-	
-	
+
 }

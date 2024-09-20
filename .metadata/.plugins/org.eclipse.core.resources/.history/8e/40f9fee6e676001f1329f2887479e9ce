@@ -1,0 +1,7 @@
+package chapter20.Library2.model;
+
+public class Book {
+	private String title;
+	private String author;
+	private boolean isBorrowed; //책의 대여 상태를 나타내는 필드 (false - 매대여)
+}

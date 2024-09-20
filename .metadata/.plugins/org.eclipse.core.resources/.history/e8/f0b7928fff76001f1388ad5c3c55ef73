@@ -1,0 +1,39 @@
+package chapter20.reservation.controller;
+
+import java.util.Scanner;
+
+import chapter20.reservation.service.ReservationService;
+import chapter20.reservation.service.UserService;
+
+/*
+	ReservationController 클래스 (controller)
+	- 사용자 요청을 처리하고 알맞은 서비스 메서드를 호출
+	- 콘솔 기반의 인터페이스로 사용자와 상호작용
+*/
+public class ReservationController {
+	private UserService userService;
+	private ReservationService reservationService;
+	
+	public ReservationController() {
+		this.userService = new UserService();
+		this.reservationService = new ReservationService();
+	}
+	
+	public void run() {
+		Scanner sc = new Scanner(System.in);
+		
+		while (true) {
+			System.out.println("1: 사용자 등록 | 2. 로그인 | 3. 로그아웃");
+			System.out.println("4. 예약하기 | 5. 예약 확인 | 6. 예약 취소");
+			System.out.println("7. 종료");
+			System.out.println("선택: ");
+			
+			int choice = sc.nextInt();
+			sc.nextLine();
+		}
+	}
+	
+	
+	
+	
+}
