@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
-    <fullyQualifiedTypeName name="chapter11.EventManagement"/>
-    <fullyQualifiedTypeName name="java.util.Set"/>
-    <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="chapter12.controller.BookController"/>
-    <fullyQualifiedTypeName name="chapter12.model.Book"/>
-    <fullyQualifiedTypeName name="chapter12.view.BookView"/>
-    <fullyQualifiedTypeName name="v"/>
-    <fullyQualifiedTypeName name="chapter13.Pair"/>
     <fullyQualifiedTypeName name="chapter13.Message"/>
     <fullyQualifiedTypeName name="java.lang.Deprecated"/>
     <fullyQualifiedTypeName name="java.util.concurrent.atomic.AtomicReferenceFieldUpdater"/>
@@ -46,7 +37,6 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.stream.Stream"/>
@@ -56,8 +46,18 @@
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
     <fullyQualifiedTypeName name="chapter15.Library"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="chapter20.Library2.controller.LibraryController"/>
+    <fullyQualifiedTypeName name="org.w3c.dom.ls.LSInput"/>
+    <fullyQualifiedTypeName name="chapter20.reservation.service.UserService"/>
+    <fullyQualifiedTypeName name="chapter20.reservation.service.ReservationService"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.LinkageError"/>
+    <fullyQualifiedTypeName name="chapter20.reservation.controller.ReservationController"/>
+    <fullyQualifiedTypeName name="chapter20.reservation.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="chapter20.reservation.model.User"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="chapter20.reservation.model.Reservation"/>
+    <fullyQualifiedTypeName name="chapter20.reservation.repository.ReservationRepository"/>
     <fullyQualifiedTypeName name="chapter20.Library2.service.LibraryService"/>
 </qualifiedTypeNameHistroy>

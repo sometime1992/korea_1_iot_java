@@ -22,7 +22,7 @@ public class BookController {
 	
 	// 책 삭제
 	public void deleteBook(int id) {
-		bookService.deletBook(id);
+		bookService.deleteBook(id);
 	}
 	
 	// 책 조회

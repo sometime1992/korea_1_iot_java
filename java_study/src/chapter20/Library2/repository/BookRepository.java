@@ -7,9 +7,9 @@ import chapter20.Library2.model.Book;
 
 public class BookRepository {
 	private List<Book> books = new ArrayList<Book>();
-	
+
 	public void addBook(Book book) {
-		books.add(book);
+		books.add(book);		
 	}
 
 	public Book findBookByTitle(String bookTitle) {
@@ -24,5 +24,5 @@ public class BookRepository {
 	public List<Book> findAllBooks() {
 		return books;
 	}
-	
+
 }

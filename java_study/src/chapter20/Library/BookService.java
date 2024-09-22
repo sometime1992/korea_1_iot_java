@@ -24,7 +24,7 @@ public class BookService {
 		}
 	}
 
-	public void deletBook(int id) {
+	public void deleteBook(int id) {
 		bookRepository.delete(id);
 	}
 
