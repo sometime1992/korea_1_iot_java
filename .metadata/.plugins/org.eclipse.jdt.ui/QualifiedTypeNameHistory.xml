@@ -30,7 +30,6 @@
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="chapter16.A"/>
     <fullyQualifiedTypeName name="SundayAction"/>
-    <fullyQualifiedTypeName name="java.lang.Override"/>
     <fullyQualifiedTypeName name="chapter16.Zoo.Lion"/>
     <fullyQualifiedTypeName name="chapter16.Zoo.Monkey"/>
     <fullyQualifiedTypeName name="chapter16.Animal"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="chapter20.reservation.model.Reservation"/>
     <fullyQualifiedTypeName name="chapter20.reservation.repository.ReservationRepository"/>
     <fullyQualifiedTypeName name="chapter20.Library2.service.LibraryService"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>
