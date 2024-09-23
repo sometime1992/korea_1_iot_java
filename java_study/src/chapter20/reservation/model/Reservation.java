@@ -9,7 +9,7 @@ public class Reservation {
 	private String reservationId;
 	private String userId;
 	private String reservationTime;
-	private boolean isActive;
+	private boolean isActive; // 기본값 false
 	
 	// 생성자
 	public Reservation(String reservationId, String userId, String reservationTime) {
